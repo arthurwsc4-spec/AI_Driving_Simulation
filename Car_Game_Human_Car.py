@@ -1,4 +1,4 @@
-import pygame, math
+import pygame, math 
 #Build a Car Simulation in Python | Step by Step (For AI Training)    34:00
 
 pygame.init()
@@ -31,7 +31,7 @@ Steer_Smoothing = 8.5
 
 # Sensors ----------------------------------------
 Max_Sensor_Distance = 200
-Sensor_Angles = [-math.pi/3, -math.pi/6, 0.0, math.pi/6, math.pi/3]  #[-60, -30, 0, 30, 90]    How to know the angle?
+Sensor_Angles = [-math.pi/6, -math.pi/3, -math.pi/2, 0.0, math.pi/6, math.pi/3, math.pi/2]  #[-60, -30, 0, 30, 90]    How to know the angle?
 Sensor_Step = 5                #How precise the rate checking is
 
 # UI Elements ------------------------------------
