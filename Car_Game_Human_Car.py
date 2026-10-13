@@ -1,4 +1,4 @@
-import pygame, math #pedir para julia contar sobre a história do 'rasgou mas não senti nada'
+import pygame, math
 #Build a Car Simulation in Python | Step by Step (For AI Training)    34:00
 
 pygame.init()
